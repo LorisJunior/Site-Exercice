@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>HOME - IFSP - Pirituba - DWBA4</title>
-    <link rel="favicon" type="img/x-icon" href="images/favicon.ico" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <style type="text/css">
-      header li {
-        max-width: 500px;
-        top: 8px;
-        position: relative;
-        left: 85%;
-        display: inline-block;
-      }
-    </style>
-  </head>
-  <body>
-    <header id="cabecalho">
-      <div class="right">
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li>|</li>
-            <li><a href="contato.html">CONTATO</a></li>
-            <li>|</li>
-            <li><a href="sobre.html">SOBRE</a></li>
+<head>
+<meta charset="UTF-8">
+<title>Contato - IFSP - Pirituba</title>
+<link rel="icon" type="image/icon" href="Imagens/favicon.ico">
+<script src="js/disabling.js"></script>
+</head>
+<body>
 
-          </ul>
-        </nav>
-      </div>
-    </header>
-    
-    <script src="script.js"></script>
-  </body>
+  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+    <nav>
+      <object width="100%" height="65px" data="menu.html"></object>
+    </nav>
+
+    <img src="Imagens/Logo.jpg" alt="Logo do IFSP " />
+    <h1>Mande uma mensagem</h1>
+
+    <ul>
+      <li>
+        <label for="">Nome</label>
+        <input type="text" name="contato" id="Nome">
+      </li>
+      <li>
+        <label for="">E-Mail</label>
+        <input type="email" name="contato" id="email">
+      </li>
+      <li>
+        <label for="">Telefone</label>
+        <input type="number" name="contato" id="Telefone"> (99) 99999-9999
+      </li>
+      <li>
+        <label for="">Assunto</label>
+        <select name="contato">
+          <option>-- Selecione --</option>
+          <option>Reclamação</option>
+          <option>Sugestão</option>
+        </select>
+      </li>
+      <li>
+        <label for="">Mensagem</label>
+        <textarea name="Contato" id="Mensagem" cols="20" rows="2"></textarea>
+      </li>
+      <li>
+        <fieldset>
+        <legend>Opções de Resposta</legend>
+        <label for="checkbox1">E-Mail</label>
+        <input type="checkbox" id="checkbox1" name="check">
+        <label for="checkbox2">Telefone</label>
+        <input type="checkbox" id="checkbox2" name="check">
+        </fieldset>
+      </li>
+      <li>
+        <input type="submit" id="sub-button" name="contato">
+      </li>
+      
+    </ul>
+  </header>
+  
+  <footer>
+      <nav>
+        <object width="100%" data="rodape.html"></object>
+      </nav>
+    </footer>
+</body>
 </html>
