@@ -4,63 +4,86 @@
 <meta charset="UTF-8">
 <title>Contato - IFSP - Pirituba</title>
 <link rel="icon" type="image/icon" href="Imagens/favicon.ico">
+<link rel="stylesheet" href="css/formularios.css" type="text/css" />
 <script src="js/disabling.js"></script>
 </head>
 <body>
 
-  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+  <header id="cabecalho">
+
     <nav>
-      <object width="100%" height="65px" data="menu.html"></object>
+        <object width="100%" height="200" data="menu.html"></object>
     </nav>
 
-    <img src="Imagens/Logo.jpg" alt="Logo do IFSP " />
+  </header>
+
+  <main>
+
     <h1>Mande uma mensagem</h1>
 
-    <ul>
-      <li>
-        <label for="">Nome</label>
-        <input type="text" name="contato" id="Nome">
-      </li>
-      <li>
-        <label for="">E-Mail</label>
-        <input type="email" name="contato" id="email">
-      </li>
-      <li>
-        <label for="">Telefone</label>
-        <input type="number" name="contato" id="Telefone"> (99) 99999-9999
-      </li>
-      <li>
-        <label for="">Assunto</label>
-        <select name="contato">
-          <option>-- Selecione --</option>
-          <option>Reclamação</option>
-          <option>Sugestão</option>
-        </select>
-      </li>
-      <li>
-        <label for="">Mensagem</label>
-        <textarea name="Contato" id="Mensagem" cols="20" rows="2"></textarea>
-      </li>
-      <li>
-        <fieldset>
-        <legend>Opções de Resposta</legend>
-        <label for="checkbox1">E-Mail</label>
-        <input type="checkbox" id="checkbox1" name="check">
-        <label for="checkbox2">Telefone</label>
-        <input type="checkbox" id="checkbox2" name="check">
-        </fieldset>
-      </li>
-      <li>
-        <input type="submit" id="sub-button" name="contato">
-      </li>
-      
-    </ul>
-  </header>
+    <form method="post">
+      <ul>
+        <li>
+
+            <label for="">Nome</label>
+            <p>
+            <input type="text" name="contato" id="Nome" required class="form1">
+            </p>
+          
+        </li>
+        <li>
+            <label for="">E-Mail</label></br>
+            <p>
+            <input type="email" name="contato" id="email" class="form1">
+            </p>
+        </li>
+        <li>
+          <label for="">Telefone (99) 99999-9999</label>
+          <p>
+            <input type="number" name="contato" id="Telefone" class="form1"> 
+          </p>
+        </li>
+        <li>
+          <label for="">Assunto</label>
+          <p>
+            <select name="contato" required class="form1">
+              <option value="">-- Selecione --</option>
+              <option value="reclamacao">Reclamação</option>
+              <option value="sug">Sugestão</option>
+            </select>
+          </p>
+        </li>
+        <li>
+          <label for="">Mensagem</label>
+          <p>
+          <textarea name="Contato" id="Mensagem" cols="20" rows="2" class="form1"></textarea>
+          </p>
+        </li>
+        <li>
+          <fieldset>
+          <legend>Opções de Resposta</legend>
+          <label for="checkbox1">E-Mail</label>
+          <input type="checkbox" id="checkbox1" name="check" >
+          <label for="checkbox2">Telefone</label>
+          <input type="checkbox" id="checkbox2" name="check" >
+          </fieldset>
+        </li>
+        <br><br>
+        <input type="submit" id="sub-button" name="contato" class="botao">
+    
+      </ul>
+    </form>
+    
+
+  </main>
+
+    
+  
   
   <footer>
       <nav>
         <object width="100%" data="rodape.html"></object>
       </nav>
-    </footer>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,56 @@
+.form1{
+  width: 98%;
+  padding: 12px;
+  border: solid 1px;
+  border-color: lightgray;
+}
+
+.form2{
+  margin-left: 20px;
+  width: 96%;
+  padding: 12px;
+  border: solid 1px;
+  border-color: lightgray;
+}
+
+.botao{
+  width: 98%;
+  padding: 12px;
+  background-color:rgb(76, 170, 76);
+  border: none;
+  color: white;
+}
+
+.botao:hover {
+  width: 98%;
+  padding: 12px;
+  background-color:rgb(59, 129, 59);
+  border: none;
+  color: white;
+}
+
+.botao2{
+  margin-left: 20px;
+  width: 97%;
+  padding: 12px;
+  background-color:rgb(76, 170, 76);
+  border: none;
+  color: white;
+}
+
+.botao2:hover {
+  margin-left: 20px;
+  width: 97%;
+  padding: 12px;
+  background-color:rgb(59, 129, 59);
+  border: none;
+  color: white;
+}
+
+.divform{
+  background-color: rgb(243, 243, 243);
+}
+
+.esq{
+  margin-left: 20px;
+}

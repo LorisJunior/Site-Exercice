@@ -4,80 +4,83 @@
 <meta charset="UTF-8">
 <title>Eventos - IFSP - Pirituba</title>
 <link rel="icon" type="image/icon" href="Imagens/favicon.ico"/>
+<link rel="stylesheet" href="css/formularios.css" type="text/css" />
 <script src="js/disabling.js"></script>
 </head>
 <body>
 
-  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+  <header id="cabecalho">
+
     <nav>
-      <object width="100%" height="65px" data="menu.html"></object>
+        <object width="100%" height="200" data="menu.html"></object>
     </nav>
 
-    <img src="Imagens/Logo.jpg" alt="Logo do IFSP " />
     <h1>Inscreva-se</h1>
   </header>
 
   <main>
-    <form action="">
+    <form method="post">
+
       <fieldset>
-      <form>
-        Evento
-        <select name="Evento">
-          <option>-- Selecione --</option>
-          <option>Voe sem asas</option>
-          <option>Festa junina</option>
-          <option>Semana de tecnologia</option>
-        </select>
-      </form>
+
+          <label for="Evento">Evento</label><br/>
+          <p>
+            <select name="Evento" required class="form1">
+            <option value= "">-- Selecione --</option>
+            <option value="voe">Voe sem asas</option>
+            <option value="jun">Festa junina</option>
+            <option value="inf">Semana de tecnologia</option>
+            </select>
+          </p>
+          
+
+
     </fieldset>
 
     <fieldset>
-    <legend>Informações de Acesso</legend>
-      <form><br>
+
+      <legend>Informações de Acesso</legend>
+      <br>
       <label for="Usuário">Usuário</label>
-      <input type="text" name="Info" id="Usuário"><br><br>
+      <input type="text" name="Info" id="Usuário" required class="form1"><br><br>
       <label for="Senha">Senha</label>
-      <input type="password" name="Info" id="Senha"><br><br>
+      <input type="password" name="Info" id="Senha" required><br><br>
       <label for="Confirme a Senha">Confirme a Senha</label>
-      <input type="password" name="Info" id="Confirme a Senha"><br><br>
+      <input type="password" name="Info" id="Confirme a Senha" required><br><br>
         
-      </form>
     </fieldset>
 
     <fieldset>
-    <legend>Informações Pessoais</legend>
-      <form><br>
-        <label for="Nome Completo">Nome Completo</label>
-        <input type="text" name="Nome Completo" id="Nome Completo"><br><br>
-        <label for="E-mail">E-mail</label>
-        <input type="email" name="E-mail" id="E-mail"><br><br>
-        <label for="Celular">Celular</label>
-        <input type="number" name="Celular" id="Celular"> (99) 99999-9999<br><br>
+      <legend>Informações Pessoais</legend>
+      <br>
+      <label for="Nome Completo">Nome Completo</label>
+      <input type="text" name="Nome Completo" id="Nome Completo" required class="form1"><br><br>
+      <label for="E-mail">E-mail</label>
+      <input type="email" name="E-mail" id="E-mail" required class="form1"><br><br>
+      <label for="Celular">Celular (99) 99999-9999</label>
+      <input type="number" name="Celular" id="Celular" required class="form1"> <br><br>
 
-        <fieldset>
-          <legend>Sexo</legend>
-          <form action="">
-            <label for="Masculino">Masculino</label>
-            <input type="radio" name="Gender" id="Masculino">
-            <label for="Feminino">Feminino</label>
-            <input type="radio" name="Gender" id="Feminino">
-          </form>
-        </fieldset>
+      <fieldset>
+        <legend>Sexo</legend>
+          <label for="Masculino">Masculino</label>
+          <input type="radio" name="Gender" id="Masculino" required>
+          <label for="Feminino">Feminino</label>
+          <input type="radio" name="Gender" id="Feminino" required>
+      </fieldset>
         
         <br>
         <label for="Data de Nascimento">Data de Nascimento</label>
-        <input type="date" name="Info" id="Data de Nascimento"><br><br>
+        <input type="date" name="Info" id="Data de Nascimento" required><br><br>
         <label for="Cor Favorita">Cor Favorita</label>
-        <input type="color" name="Info" id="Cor Favorita"><br><br>
+        <input type="color" name="Info" id="Cor Favorita" required><br><br>
         <label for="Perfil no Github">Perfil no Github</label>
-        <input type="url" name="Info" id="Perfil no Github">
+        <input type="url" name="Info" id="Perfil no Github" required class="form1">
         
-      </form>
     </fieldset>
 
-    <br>
-    <input type="submit" value="Inscrever">
-    <input type="submit" value="Limpar">
+    
+    <input type="submit" value="Inscrever" class="botao"><br><br>
+    <input type="reset" value="Limpar" class="botao">
 
     </form>
     

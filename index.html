@@ -3,80 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>HOME - IFSP - Pirituba</title
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>HOME - IFSP - Pirituba</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="Imagens/favicon.ico" type="image/icon">
+    <link rel="stylesheet" href="css/formatar.css" type="text/css" />
   </head>
   <body>
     <header id="cabecalho">
 
       <nav>
-        <object width="100%" height="65px" data="menu.html"></object>
-      </nav>
-
-      <img src="Imagens/Logo.jpg" alt="Logo do IFSP " />
-
-      <nav> <!-- Indica que o conteúdo é composto de links de navegação-->
-        <p><b>Cursos</b></p> 
-        <ul> <!-- Estrutura de lista não ordenada -->
-          <li> <!-- Item de lista -->
-            <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>					
-          </li>
-          <li>
-            <a href="#">Engenharia de Produção</a>
-          </li>
-          <li>
-            <a href="#">Gestão em Tecnologia da Informação</a>
-          </li>
-          <li>
-            <a href="#">Letras</a>
-          </li>
-          <li>
-            <a href="#">Gestão Pública</a>
-          </li>
-          </ul>    
+        <object width="100%" height="200" data="menu.html"></object>
       </nav>
       
     </header>
+
     <main>
-      <aside> <!-- indica que é um conteúdo a parte do princial, auxiliar-->
-      <p><b>Eventos</b></p> 	
-      <figure>
-          <img src="Imagens/SEJA_RARO.jpg" alt="Palestra Seja Raro" width="50%" height="50%">
-          <figcaption>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</figcaption>
+      <aside>
+
+        <h2 class="centro"><b>Acontece no IFSP!</b></h2> 	
+
+        <figure class="centro">
+            <img class="sraro" src="Imagens/SEJA_RARO.jpg" alt="Palestra Seja Raro">
+            <div class="borda">
+              <figcaption class="centro">Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</figcaption>
+            </div>
+            
         </figure>	
+
       </aside>
 
-      <section> <!-- Indica que é uma seção/parte do documento-->
-        <h1>
-          Sobre a Biblioteca
-        </h1>
-      
-        <article> <!-- Indica que o conteúdo é completo, ou seja, não depende d eoutros trechos do documento para ter significado -->
-          <img src="Imagens/library.jpeg" alt="Biblioteca" />
-          <h2>Conheça os novos títulos disponíveis na nossa biblioteca</h2>
-          <h6> <!-- Título de terceiro nível -->
-          Publicado: Quarta-feira, 14 de agosto de 2019
-          </h6>
-        </article>
-      </section>
-      <section>
-        <h1>
-          Conheça o SUAP
-        </h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+      <section class="centro">
+
+        <h2 class="centro"><b>Conheça os desafios de inovação</b></h2> 
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       </section>
     </main>
 
-    
     <footer>
-      <br><br>
-      <div id="my_menu" align="left">
-      <a href="#cabecalho"><img src="Imagens/MoveTop.png" width="41" height="43" title="Mover para o topo" alt="Mover para o topo"></a> | 
-      <a href="https://www.facebook.com/ifsppirituba"><img src="Imagens/facebook.png" width="41" height="43" title="IFSP Facebook" alt="IFSP Facebook"></a> 
-      </div>
-      <p>
-      IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+      <nav>
+        <object width="100%" data="rodape.html"></object>
+      </nav>
     </footer>
     <script src="script.js"></script>
   </body>

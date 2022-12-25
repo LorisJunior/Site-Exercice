@@ -1,0 +1,16 @@
+.centro{
+  text-align: center;
+}
+
+.sraro{
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  
+}
+
+.borda{
+  border-style: dotted;
+  border-width: 1px;
+  border-color: blue;
+}
