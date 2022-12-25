@@ -1,72 +1,72 @@
 .form1{
-  width: 99%;
-  padding: 12px;
-  border: solid 1px;
-  border-color: lightgray;
-}
-
-
-.form2{
-  margin-left: 20px;
-  width: 96%;
-  padding: 12px;
-  border: solid 1px;
-  border-color: lightgray;
-}
-
-.padd1{
-  padding: 7px;
-  box-sizing: border-box;
-}
-
-.botao{
-  width: 98%;
-  padding: 12px;
-  background-color:rgb(76, 170, 76);
-  border: none;
-  color: white;
-}
-
-.botao:hover {
-  width: 98%;
-  padding: 12px;
-  background-color:rgb(59, 129, 59);
-  border: none;
-  color: white;
-}
-
-.botao2{
-  margin-left: 20px;
-  width: 97%;
-  padding: 12px;
-  background-color:rgb(76, 170, 76);
-  border: none;
-  color: white;
-}
-
-.botao2:hover {
-  margin-left: 20px;
-  width: 97%;
-  padding: 12px;
-  background-color:rgb(59, 129, 59);
-  border: none;
-  color: white;
-}
-
-.divform{
-  height: 115px;
-  padding: 15px;
-  background-color: rgb(243, 243, 243);
-  box-sizing: border-box;
-}
-
-.divform2{
-  height: 60px;
-  padding: 15px;
-  background-color: rgb(243, 243, 243);
-  box-sizing: border-box;
-}
-
-.esq{
-  margin-left: 20px;
-}
+    width: 99%;
+    padding: 12px;
+    border: solid 1px;
+    border-color: lightgray;
+  }
+  
+  
+  .form2{
+    margin-left: 20px;
+    width: 96%;
+    padding: 12px;
+    border: solid 1px;
+    border-color: lightgray;
+  }
+  
+  .padd1{
+    padding: 7px;
+    box-sizing: border-box;
+  }
+  
+  .botao{
+    width: 98%;
+    padding: 12px;
+    background-color:rgb(76, 170, 76);
+    border: none;
+    color: white;
+  }
+  
+  .botao:hover {
+    width: 98%;
+    padding: 12px;
+    background-color:rgb(59, 129, 59);
+    border: none;
+    color: white;
+  }
+  
+  .botao2{
+    margin-left: 20px;
+    width: 97%;
+    padding: 12px;
+    background-color:rgb(76, 170, 76);
+    border: none;
+    color: white;
+  }
+  
+  .botao2:hover {
+    margin-left: 20px;
+    width: 97%;
+    padding: 12px;
+    background-color:rgb(59, 129, 59);
+    border: none;
+    color: white;
+  }
+  
+  .divform{
+    height: 115px;
+    padding: 15px;
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+  }
+  
+  .divform2{
+    height: 60px;
+    padding: 15px;
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+  }
+  
+  .esq{
+    margin-left: 20px;
+  }

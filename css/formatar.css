@@ -1,21 +1,21 @@
 .centro{
-  text-align: center;
-}
-
-.imgsize{
-  width: 47%;
-}
-
-.imgsize2{
-  width: 32%;
-}
-
-.teximg{
-  font-size: 12px;
-}
-
-.borda{
-  border-style: dotted;
-  border-width: 1px;
-  border-color: blue;
-}
+    text-align: center;
+  }
+  
+  .imgsize{
+    width: 47%;
+  }
+  
+  .imgsize2{
+    width: 32%;
+  }
+  
+  .teximg{
+    font-size: 12px;
+  }
+  
+  .borda{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: blue;
+  }
