@@ -22,43 +22,46 @@
     <form method="post">
 
       <fieldset>
-
-          <label for="Evento">Evento</label><br/>
-          <p>
-            <select name="Evento" required class="form1">
-            <option value= "">-- Selecione --</option>
-            <option value="voe">Voe sem asas</option>
-            <option value="jun">Festa junina</option>
-            <option value="inf">Semana de tecnologia</option>
-            </select>
-          </p>
+            <label for="Evento">Evento</label><br>
           
-
+            <div class="padd1">
+              <select name="Evento" required class="form1">
+              <option value= "">-- Selecione --</option>
+              <option value="voe">Voe sem asas</option>
+              <option value="jun">Festa junina</option>
+              <option value="inf">Semana de tecnologia</option>
+              </select>
+            </div>
+            
 
     </fieldset>
 
-    <fieldset>
+    <fieldset class="padd1">
 
       <legend>Informações de Acesso</legend>
-      <br>
-      <label for="Usuário">Usuário</label>
-      <input type="text" name="Info" id="Usuário" required class="form1"><br><br>
-      <label for="Senha">Senha</label>
-      <input type="password" name="Info" id="Senha" required><br><br>
-      <label for="Confirme a Senha">Confirme a Senha</label>
-      <input type="password" name="Info" id="Confirme a Senha" required><br><br>
-        
+      <div class="padd1">
+        <label for="Usuário" >Usuário</label>
+        <input type="text" name="Info" id="Usuário" required class="form1"><br><br>
+        <label for="Senha">Senha</label>
+        <input type="password" name="Info" id="Senha" required><br><br>
+        <label for="Confirme a Senha">Confirme a Senha</label>
+        <input type="password" name="Info" id="Confirme a Senha" required><br><br>
+      </div>
+      
     </fieldset>
 
     <fieldset>
       <legend>Informações Pessoais</legend>
-      <br>
-      <label for="Nome Completo">Nome Completo</label>
-      <input type="text" name="Nome Completo" id="Nome Completo" required class="form1"><br><br>
-      <label for="E-mail">E-mail</label>
-      <input type="email" name="E-mail" id="E-mail" required class="form1"><br><br>
-      <label for="Celular">Celular (99) 99999-9999</label>
-      <input type="number" name="Celular" id="Celular" required class="form1"> <br><br>
+
+      <div class="padd1">
+        <label for="Nome Completo">Nome Completo</label>
+        <input type="text" name="Nome Completo" id="Nome Completo" required class="form1"><br><br>
+        <label for="E-mail">E-mail</label>
+        <input type="email" name="E-mail" id="E-mail" required class="form1"><br><br>
+        <label for="Celular">Celular (99) 99999-9999</label>
+        <input type="number" name="Celular" id="Celular" required class="form1">
+      </div>
+      
 
       <fieldset>
         <legend>Sexo</legend>
@@ -68,7 +71,6 @@
           <input type="radio" name="Gender" id="Feminino" required>
       </fieldset>
         
-        <br>
         <label for="Data de Nascimento">Data de Nascimento</label>
         <input type="date" name="Info" id="Data de Nascimento" required><br><br>
         <label for="Cor Favorita">Cor Favorita</label>
@@ -78,9 +80,11 @@
         
     </fieldset>
 
+    <div class="padd1">
+      <input type="submit" value="Inscrever" class="botao"><br><br>
+      <input type="reset" value="Limpar" class="botao">
+    </div>
     
-    <input type="submit" value="Inscrever" class="botao"><br><br>
-    <input type="reset" value="Limpar" class="botao">
 
     </form>
     

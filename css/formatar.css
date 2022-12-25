@@ -2,11 +2,16 @@
   text-align: center;
 }
 
-.sraro{
-  border-radius: 50%;
-  height: 50%;
-  width: 50%;
-  
+.imgsize{
+  width: 47%;
+}
+
+.imgsize2{
+  width: 32%;
+}
+
+.teximg{
+  font-size: 12px;
 }
 
 .borda{
